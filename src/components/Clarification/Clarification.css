@@ -1,0 +1,16 @@
+.clarification {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 0;
+    align-self: flex-start;
+}
+
+.clarification h4 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.clarification span {
+    color: rgb(155, 155, 155);
+}

@@ -1,0 +1,50 @@
+.button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    box-shadow: inset 2px 2px 1px rgba(68, 68, 68, 0.3);
+}
+
+.button:disabled {
+    background: #ccc;
+    color: black;
+    cursor: not-allowed;
+}
+
+.errorBtn {
+    background: rgba(247, 39, 67, 1);
+}
+
+.successBtn {
+    background: rgba(165, 240, 69, 1);
+}
+
+.primaryBtn {
+    background: #2884f6;
+    color: #fff;
+}
+
+.searchBtn {
+    padding: 8px 30px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    margin-left: -26px;
+}
+
+.no-save {
+    background-color: white;
+    border: 1px solid #2884f6;
+    color: #2884f6;;
+}

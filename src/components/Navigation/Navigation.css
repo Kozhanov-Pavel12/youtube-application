@@ -1,0 +1,41 @@
+.navigation{
+    background: rgb(243, 243, 243);
+    color: rgba(19, 144, 229, 1);
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.navigation ul img {
+    width: 48px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.navigation ul li {
+    margin-right: 30px;
+}
+
+.navigation ul li:last-child {
+    margin-left: auto;
+}
+
+.navigation .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navigation ul li a {
+    color: rgba(19, 144, 229, 1);
+    text-decoration: none;
+    position: relative;
+    padding: 21px 20px;
+}
+
+ul li a:hover, .active {
+    border-bottom: 2px solid rgba(19, 144, 229, 1);
+}

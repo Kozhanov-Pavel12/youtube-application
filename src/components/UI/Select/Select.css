@@ -1,0 +1,24 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.select select {
+    padding: 8px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    outline: none;
+}
+
+.select select:focus {
+    outline: none;
+}
+
+.select label {
+    color: rgba(23, 23, 25, 0.5);
+    margin-bottom: 3px;
+}

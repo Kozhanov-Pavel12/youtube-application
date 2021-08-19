@@ -1,0 +1,39 @@
+.favor-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.elem > div {
+    margin-bottom: 10px;
+}
+
+.link {
+    margin-left: 15px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    border-bottom: none;
+}
+
+.repeat {
+    color: rgb(0, 165, 0);
+}
+
+.change {
+    color: blue;
+}
+
+.delete {
+    color: red;
+}

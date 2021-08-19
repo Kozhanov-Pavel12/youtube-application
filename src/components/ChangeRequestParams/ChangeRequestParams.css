@@ -1,0 +1,55 @@
+.save-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 390px;
+    top: 0;
+    width: 500px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: rgb(245, 245, 245);
+    border: 1px solid rgb(182, 182, 182);
+    z-index: 90;
+    transform: translateY(100px);
+    transition: transform .22s ease-in;
+}
+
+.save-form.close {
+    transform: translateY(-450px);
+}
+
+.save-form input {
+    padding: 5px 20px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.save-form .input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.save-buttons {
+    display: flex;
+}
+
+.no-save {
+    margin-right: 30px;
+}
+
+.range-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.range-input input {
+    margin-right: 20px;
+}

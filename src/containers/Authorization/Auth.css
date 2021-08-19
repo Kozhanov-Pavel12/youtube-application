@@ -1,0 +1,32 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.auth > div {
+    width: 100%;
+    max-width: 510px;
+}
+
+img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.auth h3 {
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+.authForm {
+    background: rgba(255, 255, 255, 1);
+    padding: 30px 60px 40px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(39, 39, 39, 0.1);
+    margin-top: 30px;
+}
+
+

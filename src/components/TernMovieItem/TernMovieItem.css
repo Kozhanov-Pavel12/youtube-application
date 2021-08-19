@@ -1,0 +1,10 @@
+.cardItem {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.cardItem h4 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
